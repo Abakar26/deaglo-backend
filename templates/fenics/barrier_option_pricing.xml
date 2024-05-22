@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfi_message version="2.0">
+  <header>
+    <transactionId>{{ transactionId }}</transactionId>
+    <timestamp>{{ timestamp }}</timestamp>
+    <username>{{ username }}</username>
+    <password>{{ password }}</password>
+  </header>
+  <body>
+    <action name="action1" function="PRICING" version="1.0">
+      <option name="calc" value="MIDRATE"/>
+      <option name="data" ref="data1"/>
+      <option name="scenario" value="Trading"/>
+    </action>
+    <data name="data1" format="NAME_VALUE">
+      <node name="Barrier Option">
+        <field name="HorDate" value="{{ horDate }}" />
+        <field name="Currency" value="{{ currency }}" />
+        <field name="CtrCcy" value="{{ ctrCcy }}" />
+        <field name="Class" value="{{ class }}" />
+        <field name="Trigger" value="{{ trigger }}" />
+        <field name="Strategy" value="{{ strategy }}" />
+        <field name="Strike" value="{{ strike }}" />
+        {% if direction %}<field name="Direction" value="{{ direction }}" />{% endif %}
+        {% if exDate %}<field name="ExDate" value="{{ exDate }}" />{% endif %}
+        {% if amount %}<field name="Amount" value="{{ amount }}" />{% endif %}
+        {% if spot %}<field name="Spot" value="{{ spot }}" />{% endif %}
+        {% if forward %}<field name="Forward" value="{{ forward }}" />{% endif %}
+        {% if maturity %}<field name="Maturity" value="{{ maturity }}" />{% endif %}
+        {% if loTrigger %}<field name="LoTrigger" value="{{ loTrigger }}" />{% endif %}
+        {% if hiTrigger %}<field name="HiTrigger" value="{{ hiTrigger }}" />{% endif %}
+      </node>
+    </data>
+  </body>
+</gfi_message>

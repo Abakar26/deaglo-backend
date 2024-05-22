@@ -1,0 +1,23 @@
+branch-defaults:
+  demo:
+    environment: api-gateway-demo
+  dev:
+    environment: api-gateway-dev
+  staging:
+    environment: api-gateway-staging
+  main:
+    environment: api-gateway-prod
+global:
+  application_name: api-gateway
+  branch: null
+  default_ec2_keyname: api-python
+  default_platform: Python 3.11 running on 64bit Amazon Linux 2023
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: git
+  workspace_type: Application

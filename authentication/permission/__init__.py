@@ -1,0 +1,1 @@
+from .verified import VerifiedPermission

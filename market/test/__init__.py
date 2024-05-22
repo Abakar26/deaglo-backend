@@ -1,0 +1,13 @@
+from .get_spot_history_test import GetSpotHistoryTest
+from .create_spot_history_test import CreateSpotHistoryTest
+from .update_spot_history_test import UpdateSpotHistoryTest
+
+from .get_fx_movement_test import GetFxMovementTest
+from .create_fx_movement_test import CreateFxMovementTest
+from .update_fx_movement_test import UpdateFxMovementTest
+
+from .all_fwd_efficiency_test import AllFwdEfficiencyTest
+from .create_fwd_efficiency_test import CreateFwdEfficiencyTest
+from .delete_fwd_efficiency_test import DeleteFwdEfficiencyTest
+from .detail_fwd_efficiency_test import DetailFwdEfficiencyTest
+from .update_fwd_efficiency_test import UpdateFwdEfficiencyTest

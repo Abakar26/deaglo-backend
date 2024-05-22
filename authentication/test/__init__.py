@@ -1,0 +1,7 @@
+from .invalid_credentials_test import InvalidCredentialsTest
+from .missing_credentials_test import MissingCredentialsTest
+from .otp_test import OTPTest
+from .signup_test import SignupTest
+from .refresh_token_test import RefreshTokenTest
+from .successful_authentication_test import SuccessfulAuthenticationTest
+from .successful_authentication_test import SuccessfulAuthenticationTest

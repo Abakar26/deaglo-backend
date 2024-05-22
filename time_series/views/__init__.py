@@ -1,0 +1,1 @@
+from .spot_history_data_view import SpotHistoryDataAPIView

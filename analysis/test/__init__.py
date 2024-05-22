@@ -1,0 +1,5 @@
+from .all_analysis_test import AllAnalysisTest
+from .create_analysis_test import CreateAnalysisTest
+from .delete_analysis_test import DeleteAnalysisTest
+from .detail_analysis_test import DetailAnalysisTest
+from .update_analysis_test import UpdateAnalysisTest

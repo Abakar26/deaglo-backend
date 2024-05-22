@@ -1,0 +1,5 @@
+from .all_margin_simuation_test import AllMarginSimulationTest
+from .create_margin_simulation_test import CreateMarginSimulationTest
+from .delete_margin_simulation_test import DeleteMarginSimulationTest
+from .detail_margin_simulation_test import DetailMarginSimulationTest
+from .update_margin_simulation_test import UpdateMarginSimulationTest
